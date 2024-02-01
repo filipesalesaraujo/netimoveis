@@ -15,8 +15,8 @@ export default function Footer() {
 	return (
 		<footer>
 			<div className="flex justify-center items-center bg-[#EDF1F4] py-12 px-5">
-				<div className="max-w-grid w-full flex justify-between  gap-12">
-					<nav>
+				<div className="max-w-grid w-full ">
+					<nav className="grid grid-cols-4 gap-12">
 						<ul>
 							<p className="font-bold text-base text-blue mb-6">A Netimóveis</p>
 							<li><a aria-label="Quem somos" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Quem somos</a></li>
@@ -27,8 +27,6 @@ export default function Footer() {
 							<li><a aria-label="Soluções Corporativas" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Soluções Corporativas</a></li>
 							<li><a aria-label="Covid-19" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Covid-19</a></li>
 						</ul>
-					</nav>
-					<nav>
 
 						<ul>
 							<p className="font-bold text-base text-blue mb-6">Recursos</p>
@@ -40,16 +38,14 @@ export default function Footer() {
 							<li><a aria-label="Imobiliárias" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Imobiliárias</a></li>
 							<li><a aria-label="Blog" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Blog</a></li>
 						</ul>
-					</nav>
-					<nav>
+
 						<ul>
 							<p className="font-bold text-base text-blue mb-6">Contato</p>
 							<li><a aria-label="Fale Conosco" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Fale Conosco</a></li>
 							<li><a aria-label="Perguntas Frequentes" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Perguntas Frequentes</a></li>
 							<li><a aria-label="Suporte" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Suporte</a></li>
 						</ul>
-					</nav>
-					<nav>
+
 						<ul>
 							<p className="font-bold text-base text-blue mb-6">Nossos Aplicativos</p>
 							<li><a aria-label="Loc Fácil Netimóveis" className="text-gray text-base mb-3 leading-6 flex hover:text-orange transition-colors">Loc Fácil Netimóveis</a></li>

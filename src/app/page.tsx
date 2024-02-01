@@ -1,9 +1,14 @@
-import Image from "next/image";
+import RealEstateCategories from "./components/RealEstateCategories";
+
 
 export default function Home() {
+
+
 	return (
 		<main>
 
-		</main>
+		<RealEstateCategories />
+
+		</main >
 	);
 }
