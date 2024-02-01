@@ -11,6 +11,9 @@ const config: Config = {
 		maxWidth: {
 			'grid': '1248px',
 		},
+		colors: {
+			'orange': '#ED672B',
+		  }
     },
   },
   plugins: [],
