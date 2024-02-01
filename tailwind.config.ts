@@ -13,6 +13,8 @@ const config: Config = {
 		},
 		colors: {
 			'orange': '#ED672B',
+			'blue': '#063D7E',
+			'gray': '#555555',
 		  }
     },
   },
